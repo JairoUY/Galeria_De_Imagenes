@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 165);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .image{
@@ -18,4 +19,10 @@ body {
     padding: 7px;
     border-radius: 5px;
     box-shadow: 2px 3px #5c5c5c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: fit-content;
 }
